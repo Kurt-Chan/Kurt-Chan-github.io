@@ -18,7 +18,7 @@ body{
     border-radius: 1rem;
     text-align: center;
     padding: 2.5rem;
-    width: 35%;
+    width: 70%;
 }
 
 .header{
@@ -28,15 +28,15 @@ body{
 }
 
 .content{
-    padding: 1rem;
+    padding: .5rem;
     color: hsl(193, 38%, 86%);
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 800;
     width: 100%;
 }
 
 .divider{
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 button{
@@ -54,9 +54,9 @@ button:hover{
     box-shadow: 0 0 10px 5px #52ffa8;
 }
 
-@media only screen and(max-width: 375px) {
+@media only screen and (min-width: 768px) {
     .card{
-        width: 10%;
+        width: min-content;
     }
-}
+  }
 
